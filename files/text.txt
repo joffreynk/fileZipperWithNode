@@ -1,0 +1,52 @@
+[
+  {
+    socialLink: 'https://www.facebook.com/peoplemag',
+    socialName: 'facebook'
+  },
+  {
+    socialLink: 'https://www.instagram.com/people/',
+    socialName: 'instagram'
+  },
+  { socialLink: 'https://twitter.com/people', socialName: 'twitter' },
+  {
+    socialLink: 'https://www.pinterest.com/people/',
+    socialName: 'pinterest'
+  },
+  {
+    socialLink: 'https://www.youtube.com/user/people',
+    socialName: 'youtube'
+  },
+  {
+    socialLink: 'https://www.tiktok.com/@people',
+    socialName: 'tiktok'
+  },
+  {
+    socialLink: 'https://flipboard.com/@people',
+    socialName: 'flipboard'
+  },
+  {
+    socialLink: 'https://www.facebook.com/peoplemag',
+    socialName: 'facebook'
+  },
+  {
+    socialLink: 'https://www.instagram.com/people/',
+    socialName: 'instagram'
+  },
+  { socialLink: 'https://twitter.com/people', socialName: 'twitter' },
+  {
+    socialLink: 'https://www.pinterest.com/people/',
+    socialName: 'pinterest'
+  },
+  {
+    socialLink: 'https://www.youtube.com/user/people',
+    socialName: 'youtube'
+  },
+  {
+    socialLink: 'https://www.tiktok.com/@people',
+    socialName: 'tiktok'
+  },
+  {
+    socialLink: 'https://flipboard.com/@people',
+    socialName: 'flipboard'
+  }
+]
