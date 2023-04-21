@@ -1,8 +1,20 @@
-import { opendirSync } from "fs";
+import fs, { opendirSync } from "fs";
+import JSZip  from 'jszip';
+import path from "path";
 
 const dir = opendirSync("./files");
+const zip = new JSZip();
 
-console.log(dir);
-for await (const entry of dir) {
-    console.log("Found file:", entry.name);
+try {
+  for await (const entry of dir) {
+    zip.file(entry.name, fs.readFileSync('./files/' + entry.name));
+  }
+  
+  zip.generateNodeStream({ type: 'nodebuffer', streamFiles: true })
+  .pipe(fs.createWriteStream('files.zip'))
+  .on('finish', function () {
+      console.log("files.zip written.");
+  });
+} catch (error) {
+  console.log(error);
 }
