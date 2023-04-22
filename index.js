@@ -1,6 +1,5 @@
 import fs, { opendirSync } from "fs";
 import JSZip  from 'jszip';
-import path from "path";
 
 const dir = opendirSync("./files");
 const zip = new JSZip();
